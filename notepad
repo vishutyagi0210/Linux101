@@ -1,0 +1,10 @@
+Used when you have this file structure
+
+Parent Directory
+|__Sub Directory
+   |_filename.txt ( this will will be created with this script )
+
+file deletion: file-deletion.bat "C:\Users\Vishal\OneDrive\Desktop\linuxchallanges\linux-0-1" "basic-question.txt"
+file creation: file-creation.bat "C:\Users\Vishal\OneDrive\Desktop\linuxchallanges\linux-0-1" "basic-question.txt"
+
+
