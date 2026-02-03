@@ -94,7 +94,7 @@ ls /var                   # List variable data and logs
 ls /boot                  # List boot files
 ```
 
-https://github.com/user-attachments/assets/4077a445-b081-46d2-9fd2-9847a2d2e16b
+![video.gif](./github.gif)
 
 
 
