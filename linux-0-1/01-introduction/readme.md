@@ -94,9 +94,7 @@ ls /var                   # List variable data and logs
 ls /boot                  # List boot files
 ```
 
-<video width="600" controls>
-  <source src="./github.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/4077a445-b081-46d2-9fd2-9847a2d2e16b
 
 
 
