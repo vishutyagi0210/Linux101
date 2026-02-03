@@ -12,8 +12,8 @@ This repository provides a **one-stop solution** for learning Linux from **basic
 
 ## 📑 Table of Contents
 
-[Linux 0–1 (Beginner Level)](#linux-01-beginner-level) |  
-[Linux 1–100 (Intermediate to Advanced Level)](#linux-1100-intermediate-to-advanced-level) |  
+[Linux 0–1 (Beginner Level)](#linux-0-1-beginner-level) |  
+[Linux 1–100 (Intermediate to Advanced Level)](#linux-1-100-intermediate-to-advanced-level) |  
 [Troubleshooting](#troubleshooting) |  
 [Challenges](#challenges) |  
 [For Contributors](#for-contributors) |  
