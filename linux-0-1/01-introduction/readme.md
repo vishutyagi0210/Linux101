@@ -4,7 +4,7 @@ This file contains the essential Linux commands used to identify and understand 
 
 ---
 
-## System & OS Information Commands
+## **System & OS Information Commands**
 
 ```bash
 cat /etc/os-release        # Display Linux distribution and version
@@ -15,7 +15,7 @@ arch                      # Show system architecture
 uname -m                  # Show machine architecture
 ```
 
-## User & Login Information
+## **User & Login Information**
 
 ```bash
 whoami                    # Display current logged-in user
@@ -25,7 +25,7 @@ who                       # Show who is logged in
 w                         # Show logged-in users with activity
 ```
 
-## Hostname & Time
+## **Hostname & Time**
 
 ```bash
 hostname                  # Display system hostname
@@ -34,7 +34,7 @@ timedatectl               # Show and manage system time settings
 uptime                    # Show system running time and load average
 ```
 
-## Shell & Environment
+## **Shell & Environment**
 
 ```bash
 echo $SHELL               # Show current shell
@@ -44,7 +44,7 @@ printenv                  # Print environment variables
 echo $PATH                # Show PATH variable
 ```
 
-## Basic Navigation
+## **Basic Navigation**
 
 ```bash
 pwd                       # Show current working directory
@@ -53,7 +53,7 @@ cd                        # Change directory
 clear                     # Clear terminal screen
 ```
 
-## Root & User Switching
+## **Root & User Switching**
 
 ```bash
 su                        # Switch to root user
@@ -63,7 +63,7 @@ sudo -i                   # Get root shell using sudo
 sudo su                   # Switch to root using sudo
 ```
 
-## Help & Documentation
+## **Help & Documentation**
 
 ```bash
 man command               # Show manual page for command
@@ -71,7 +71,7 @@ command --help            # Show help for command
 info command              # Show detailed documentation
 ```
 
-## Important System Files (View Only)
+## **Important System Files (View Only)**
 
 ```bash
 cat /etc/passwd           # View user account information
@@ -80,7 +80,7 @@ cat /etc/shells           # View available shells
 cat /etc/hostname         # View system hostname
 ```
 
-## Directory Awareness
+## **Directory Awareness**
 
 ```bash
 ls /                      # List root directory
@@ -92,7 +92,7 @@ ls /boot                  # List boot files
 
 ---
 
-## Question List
+## **Question List**
 
 1. What command shows the Linux distribution and version?
 2. Which command displays the kernel version?
