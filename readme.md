@@ -1,24 +1,30 @@
 # 🐧 Linux 101 – From Basics to Advanced with Troubleshooting
 
 Welcome to **Linux 101** 🚀  
-Let me walk you through everything.
+This repository is designed to guide you from **basic Linux concepts** to **advanced system administration and troubleshooting skills**.
 
-As we all know, Linux is the backbone of modern technologies such as Kubernetes, Jenkins, Docker, and Cloud platforms.  
-In the end, you will be working on systems like **Ubuntu, AlmaLinux, CentOS**, and other Linux terminals.
+As we all know, Linux is the backbone of modern technologies such as **Kubernetes, Jenkins, Docker, and Cloud platforms**.  
+By the end of this learning journey, you will be comfortable working with systems like **Ubuntu, AlmaLinux, CentOS**, and other Linux distributions.
 
-This repository provides a **one-stop solution** for learning Linux from **basic to advanced concepts** along with strong **troubleshooting skills**.
-
----
-
-## 📂 Repository Structure
-
-Let’s go section by section:
+This repository provides a **one-stop solution** for learning Linux from **basic to advanced levels** along with strong **troubleshooting practices**.
 
 ---
 
-## 🔹 LINUX 0–1 (Beginner Level)
+## 📑 Table of Contents
 
-This section focuses on basic Linux commands and concepts.
+[Linux 0–1 (Beginner Level)](#linux-01-beginner-level) |  
+[Linux 1–100 (Intermediate to Advanced Level)](#linux-1100-intermediate-to-advanced-level) |  
+[Troubleshooting](#troubleshooting) |  
+[Challenges](#challenges) |  
+[For Contributors](#for-contributors) |  
+[Goal of This Repository](#goal-of-this-repository) |  
+[Final Note](#final-note)
+
+---
+
+## 🔹 Linux 0–1 (Beginner Level)
+
+This section focuses on basic Linux commands and fundamental concepts.
 
 ### Files included:
 
@@ -55,17 +61,18 @@ This section focuses on deeper Linux concepts and advanced commands.
 
 4. **answers.md**  
    ➤ For contributors to submit answers via pull requests.  
-   Well-structured and quality answers will be reviewed and merged.
+   Well-structured and high-quality answers will be reviewed and merged.
 
 ---
 
 ## 🛠️ Troubleshooting
 
-This section contains **real-world debugging and troubleshooting challenges** that will improve your problem-solving ability.
+This section contains **real-world debugging and troubleshooting challenges** that will improve your problem-solving skills.
 
 You will learn how to:
 - Identify system issues  
 - Debug errors  
+- Analyze logs  
 - Fix real production-like problems  
 
 ---
@@ -92,7 +99,11 @@ You must follow these rules when:
 - Contributing to `answers.md`  
 - Making updates or improvements to the repository  
 
-All contributions should be clean, well-formatted, and meaningful.
+All contributions should be:
+- Clean  
+- Well-formatted  
+- Meaningful  
+- Easy to understand  
 
 ---
 
@@ -113,6 +124,6 @@ Linux is not just an operating system — it is the foundation of modern IT infr
 
 Mastering Linux will make you stronger in:
 
-> DevOps • Cloud • SRE • System Administration • Cybersecurity
+> **DevOps • Cloud • SRE • System Administration • Cybersecurity**
 
 Happy Learning! 🐧🔥
