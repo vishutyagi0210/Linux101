@@ -1,109 +1,112 @@
-# Chapter 06 – User & Group Management (Command List)
+05-permissions/README.md
 
-This file contains essential Linux commands used to manage users, groups, and related system files.
+(Only command list + question list, same format as previous days)
+
+# Chapter 05 – Permissions & Ownership (Command List)
+
+This file contains essential Linux commands used to manage file and directory permissions and ownership.
 
 ## Table of Contents
 
-[User Information](#user-information) | [Create Users](#create-users) | [Modify Users](#modify-users) | [Delete Users](#delete-users) | [Group Management](#group-management) | [User & Group Files](#user--group-files) | [Shell Management](#shell-management) | [Search Users & Groups](#search-users--groups) | [Question List](#question-list)
+[View Permissions](#view-permissions) | [Change Permissions (chmod)](#change-permissions-chmod) | [Change Ownership (chown)](#change-ownership-chown) | [Change Group (chgrp)](#change-group-chgrp) | [Special Permissions](#special-permissions) | [Default Permissions (umask)](#default-permissions-umask) | [Question List](#question-list)
 
 ---
 
-## **User Information**
+## **View Permissions**
 
 ```bash
-whoami                    # Show current user
-id                        # Show user UID and group info
-users                     # Show logged-in users
-who                       # Show logged-in users
-w                         # Show logged-in users with activity
-getent passwd username    # Get user entry from database
+ls -l                     # Show file permissions and ownership
+stat file1.txt            # Show detailed permission information
+getfacl file1.txt        # Show ACL permissions (if enabled)
 ```
 
-## **Create Users**
+## **Change Permissions (chmod)**
 
 ```bash
-useradd user1             # Create new user
-useradd -m user2          # Create user with home directory
-useradd -s /bin/bash user3 # Create user with specific shell
-passwd user1              # Set password for user
+chmod 777 file1.txt       # Give full permissions to all
+chmod 755 file1.txt       # rwx for owner, rx for group and others
+chmod 644 file1.txt       # rw for owner, r for group and others
+chmod u+rwx file1.txt     # Add rwx permission to user
+chmod g+rw file1.txt      # Add read and write to group
+chmod o-rwx file1.txt     # Remove all permissions from others
+chmod u=rwx,g=rx,o=r file1.txt   # Set exact permissions
 ```
 
-## **Modify Users**
+## **Change Ownership (chown)**
 
 ```bash
-usermod -l newname oldname      # Change username
-usermod -u 5001 user1           # Change UID
-usermod -g group1 user1         # Change primary group
-usermod -G group2 user1         # Add secondary group
-usermod -aG wheel user1         # Append user to group
-usermod -d /home/user1 user1    # Change home directory
-usermod -s /bin/sh user1        # Change login shell
-usermod -c "Manager" user1      # Add comment/description
+chown user file1.txt              # Change owner
+chown user:group file1.txt        # Change owner and group
+chown -R user:group dir1          # Change ownership recursively
 ```
 
-## **Delete Users**
+## **Change Group (chgrp)**
 
 ```bash
-userdel user1             # Delete user only
-userdel -r user1          # Delete user with home directory
+chgrp group1 file1.txt            # Change group ownership
+chgrp -R group1 dir1              # Change group recursively
 ```
 
-## **Group Management**
+## **Special Permissions**
 
 ```bash
-groupadd group1           # Create new group
-groupdel group1           # Delete group
-gpasswd -a user1 group1   # Add user to group
-gpasswd -d user1 group1   # Remove user from group
-gpasswd -M u1,u2 group1   # Add multiple users to group
-getent group group1       # Show group information
+chmod u+s file1.txt               # Set SUID permission
+chmod g+s dir1                    # Set SGID permission
+chmod +t /shared                  # Set sticky bit
+ls -ld /shared                    # Verify sticky bit
 ```
 
-## **User & Group Files**
+## **Default Permissions (umask)**
 
 ```bash
-cat /etc/passwd           # View user account database
-cat /etc/shadow           # View password database
-cat /etc/group            # View group database
-cat /etc/gshadow          # View secure group information
+umask                             # Show current umask value
+umask 022                         # Set default permission mask
 ```
 
-## **Shell Management**
+## **Permission Testing**
 
 ```bash
-cat /etc/shells           # List valid shells
-chsh -s /bin/bash user1   # Change user shell
-usermod -s /sbin/nologin user2  # Set non-login shell
-```
-
-## **Search Users & Groups**
-
-```bash
-grep user1 /etc/passwd    # Search user in passwd file
-grep group1 /etc/group    # Search group in group file
-getent passwd             # List all users
-getent group              # List all groups
+su username                       # Switch to another user
+touch testfile                    # Create test file
+ls -l testfile                    # Verify permissions
 ```
 
 ## **Question List**
 
-1. Which command shows the current logged-in user?
-2. How do you display UID and group information of a user?
-3. Which command creates a new user?
-4. Which command sets a password for a user?
-5. How do you create a user with a home directory?
-6. Which command changes the username?
-7. How do you change the UID of a user?
-8. Which command changes the primary group of a user?
-9. How do you add a user to a secondary group?
-10. Which command deletes a user account?
-11. Which command deletes a user along with home directory?
-12. How do you create a new group?
-13. Which command adds a user to a group?
-14. Which command removes a user from a group?
-15. Which file contains user account information?
-16. Which file contains encrypted passwords?
-17. Which file contains group information?
-18. Which command lists valid login shells?
-19. How do you set a non-login shell for a user?
-20. Which command searches a user in /etc/passwd file?
+1. Which command shows file permissions and ownership?
+2. How do you change file permissions using numeric method?
+3. How do you add execute permission to user only?
+
+4. Which command removes permissions from others?
+
+5. How do you change file owner?
+
+6. How do you change group ownership?
+
+7. Which command changes ownership recursively?
+
+8. What is the purpose of SUID permission?
+
+9. What is the purpose of SGID permission?
+
+10. What is the sticky bit used for?
+
+11. Which command shows ACL permissions?
+
+12. What does umask command do?
+
+13. Which command sets default permission mask?
+
+14. How do you verify sticky bit?
+
+15. Which command sets exact permissions for user, group, and others?
+
+16. How do you test permissions with another user?
+
+17. Which command changes owner and group at once?
+
+18. Which command changes group recursively?
+
+19. What is the numeric value of rwx?
+
+20. How do you check file permission details?
