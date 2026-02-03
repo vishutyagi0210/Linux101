@@ -95,6 +95,7 @@ ls /boot                  # List boot files
 ```
 
 ![video.gif](./github.gif)
+![video.gif](./github%20(1).gif)
 
 
 
