@@ -2,6 +2,21 @@
 
 This file contains the essential Linux commands used to identify and understand the operating system and user environment.
 
+## Table of Contents
+
+| Section | Description |
+|---------|-------------|
+| [System & OS Information](#system--os-information-commands) | Display Linux distribution and system details |
+| [User & Login Information](#user--login-information) | Check current users and login details |
+| [Hostname & Time](#hostname--time) | System hostname and time management |
+| [Shell & Environment](#shell--environment) | Shell and environment variables |
+| [Basic Navigation](#basic-navigation) | Navigate the Linux filesystem |
+| [Root & User Switching](#root--user-switching) | Switch between users and root |
+| [Help & Documentation](#help--documentation) | Access command documentation |
+| [Important System Files](#important-system-files-view-only) | View critical system files |
+| [Directory Awareness](#directory-awareness) | Understand Linux directory structure |
+| [Question List](#question-list) | Practice questions |
+
 ---
 
 ## **System & OS Information Commands**
