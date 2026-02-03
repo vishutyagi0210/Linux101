@@ -94,6 +94,9 @@ ls /var                   # List variable data and logs
 ls /boot                  # List boot files
 ```
 
+<video src="./github.mp4" width="600" controls></video>
+
+
 ---
 <!-- # Chapter 01 – Introduction to Linux (Command List)
 
