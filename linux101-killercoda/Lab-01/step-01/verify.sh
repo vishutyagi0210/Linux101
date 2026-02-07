@@ -1,2 +1,6 @@
 #!/bin/bash
-history | grep -q 'echo.*hello linux' && exit 0 || exit 1
+history -a
+if grep "echo" ~/.bash_history | grep "hello" | grep "linux" > /dev/null 2>&1; then
+    exit 0
+fi
+exit 1
