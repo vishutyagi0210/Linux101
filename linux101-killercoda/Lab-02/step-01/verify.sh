@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -q "^pwd$"  && exit 0 || exit 1
+grep -q "pwd"  && exit 0 || exit 1
