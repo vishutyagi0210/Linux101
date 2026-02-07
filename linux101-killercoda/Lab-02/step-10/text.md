@@ -1,24 +1,24 @@
 ## What you are learning
 
-Linux never changes your location automatically.
-You must explicitly tell Linux where to go.
+Linux needs files to start the system.
+These files are stored in the `/boot` directory.
 
 ---
 
 ## Command
 
 ```bash
-cd /
+ls /boot
 Explanation
-cd means Change Directory
+/boot contains bootloader and kernel-related files
 
-/ represents the root directory
+These files are required when the system starts
 
-The root directory is the top level of Linux
+Beginners should never modify files here
 
-After this command, your location changes.
+You are only viewing.
 
 Your Task
-Move to the root directory:
+List the contents of the /boot directory:
 
-cd /
+ls /boot

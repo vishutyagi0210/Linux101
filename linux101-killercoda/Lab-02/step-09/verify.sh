@@ -1,2 +1,4 @@
 #!/bin/bash
-grep -q "^ls$" /root/.bash_history && exit 0 || exit 1
+history -a
+sleep 0.5
+grep -q "^ls /var$" /root/.bash_history && exit 0 || exit 1

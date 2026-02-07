@@ -1,24 +1,22 @@
 ## What you are learning
 
-Directories contain files and other directories.
-Linux provides a command to list what exists at your current location.
+Some system data changes constantly.
+Linux stores this changing data in `/var`.
 
 ---
 
 ## Command
 
 ```bash
-ls
+ls /var
 Explanation
-ls means List
+/var stands for variable data
 
-It shows files and directories in the current directory
+It stores logs, caches, and temporary system data
 
-It does not open or change anything
-
-This is one of the most commonly used Linux commands.
+Files here change frequently while the system runs
 
 Your Task
-Run the command and look at the names shown:
+List the contents of the /var directory:
 
-ls
+ls /var

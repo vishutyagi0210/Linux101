@@ -1,31 +1,27 @@
 ## What you are learning
 
-Linux always keeps track of your **current directory**.
-This directory is where commands operate by default.
+Linux stores system configuration in a dedicated place.
+That place is the `/etc` directory.
 
-Before running any serious command, you should always know:
-👉 “Where am I right now?”
+You normally **do not create files here** as a beginner.
+You only need to know what it contains.
 
 ---
 
 ## Command
 
 ```bash
-pwd
-
+ls /etc
 Explanation
+/etc contains system configuration files
 
-pwd means Present Working Directory
+These files control how the system behaves
 
-It prints the full path of your current directory
+Most files here are text-based configuration files
 
-It does not modify anything
-
-This command is used only to get information.
+For now, you are only observing.
 
 Your Task
+List the contents of the /etc directory:
 
-Run the command below and observe the output:
-
-pwd
-
+ls /etc
