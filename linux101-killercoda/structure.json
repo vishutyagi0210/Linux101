@@ -1,0 +1,11 @@
+{
+  "title": "Linux 101 – Beginner Ubuntu Hands-On Labs",
+  "description": "A step-by-step, zero-fear introduction to Linux using real Ubuntu terminals.",
+  "author": "Vishal Tyagi",
+  "items": [
+    {
+      "path": "stage-01-orientation",
+      "title": "Stage 01 – Orientation: Your First Steps in Linux"
+    }
+  ]
+}
