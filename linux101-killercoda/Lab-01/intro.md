@@ -1,4 +1,4 @@
-# Stage 01 – Orientation
+# Stage 00 – Orientation
 
 Welcome.
 

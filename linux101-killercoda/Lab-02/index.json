@@ -1,0 +1,72 @@
+{
+  "title": "Stage 01 – Orientation: Understanding the Linux Filesystem",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      {
+        "title": "Lab 8 – Understanding Your Current Location",
+        "text": "step-01/text.md",
+        "verify": "step-01/verify.sh",
+        "foreground": "step-01/setup.sh"
+      },
+      {
+        "title": "Lab 9 – Listing What Exists Around You",
+        "text": "step-02/text.md",
+        "verify": "step-02/verify.sh",
+        "foreground": "step-02/setup.sh"
+      },
+      {
+        "title": "Lab 10 – Moving Between Directories Safely",
+        "text": "step-03/text.md",
+        "verify": "step-03/verify.sh",
+        "foreground": "step-03/setup.sh"
+      },
+      {
+        "title": "Lab 11 – Understanding the Home Directory",
+        "text": "step-04/text.md",
+        "verify": "step-04/verify.sh",
+        "foreground": "step-04/setup.sh"
+      },
+      {
+        "title": "Lab 12 – Going Back and Forth Between Directories",
+        "text": "step-05/text.md",
+        "verify": "step-05/verify.sh",
+        "foreground": "step-05/setup.sh"
+      },
+      {
+        "title": "Lab 13 – Exploring the Root of the Linux Filesystem",
+        "text": "step-06/text.md",
+        "verify": "step-06/verify.sh",
+        "foreground": "step-06/setup.sh"
+      },
+      {
+        "title": "Lab 14 – Understanding What /home Is Used For",
+        "text": "step-07/text.md",
+        "verify": "step-07/verify.sh",
+        "foreground": "step-07/setup.sh"
+      },
+      {
+        "title": "Lab 15 – Understanding What /etc Is Used For",
+        "text": "step-08/text.md",
+        "verify": "step-08/verify.sh",
+        "foreground": "step-08/setup.sh"
+      },
+      {
+        "title": "Lab 16 – Understanding What /var Is Used For",
+        "text": "step-09/text.md",
+        "verify": "step-09/verify.sh",
+        "foreground": "step-09/setup.sh"
+      },
+      {
+        "title": "Lab 17 – Understanding What /boot Is Used For",
+        "text": "step-10/text.md",
+        "verify": "step-10/verify.sh",
+        "foreground": "step-10/setup.sh"
+      }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

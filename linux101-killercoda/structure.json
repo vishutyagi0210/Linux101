@@ -6,6 +6,10 @@
     {
       "path": "Lab-01",
       "title": "Lab-01 | Orientation"
+    },
+    {
+        "path": "Lab-02",
+        "title": "Lab-02 | Understanding the Linux Filesystem"
     }
   ]
 }
