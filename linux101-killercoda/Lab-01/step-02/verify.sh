@@ -1,2 +1,4 @@
 #!/bin/bash
-history | grep -q "whoami" && exit 0 || exit 1
+sleep 0.5
+history -a
+grep -q "whoami" /root/.bash_history && exit 0 || exit 1

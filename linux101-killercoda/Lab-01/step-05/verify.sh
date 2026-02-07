@@ -1,2 +1,2 @@
 #!/bin/bash
-history | grep -q "uptime" && exit 0 || exit 1
+history | grep -q "uptime" /root/.bash_history && exit 0 || exit 1
