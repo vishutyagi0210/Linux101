@@ -11,3 +11,11 @@ Run this command:
 
 ```bash
 echo "hello linux"
+```
+- if you hit any validation error even though you have write the correct command.
+
+```bash
+# try 
+history -a
+``` 
+then try again !! 
