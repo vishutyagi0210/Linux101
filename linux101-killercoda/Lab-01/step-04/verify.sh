@@ -1,7 +1,2 @@
-
-### `step-04/verify.sh`
-
-```bash
 #!/bin/bash
-
-uname -r >/dev/null 2>&1
+history | grep -q "uname -r" && exit 0 || exit 1

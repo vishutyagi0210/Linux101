@@ -1,7 +1,7 @@
-## Lab 3 – Discovering Your Ubuntu Version
+## Scenario
 
-Not all Linux systems are the same.
-Ubuntu is a **Linux distribution**.
+Different versions of Ubuntu exist.
+Linux can tell you exactly which one you’re using.
 
 ### Your task
 

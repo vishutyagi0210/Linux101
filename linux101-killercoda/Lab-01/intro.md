@@ -1,21 +1,18 @@
-# Lab 01 – Orientation
-## Your First Steps in Linux (Zero Fear)
+# Stage 01 – Orientation
 
-Welcome to Linux.
+Welcome.
 
-If this is your **first time ever** touching Linux — relax.
-Nothing in this stage can break your system.
+If this is your **first time touching Linux**, relax.
+Nothing you do here will break anything.
+
+Linux listens.
+Linux responds.
+Linux does not judge.
 
 In this stage, you will:
-- Open and understand the terminal
-- Learn who *you* are inside Linux
+- Open the terminal
+- Learn who you are on the system
 - Discover your Ubuntu version
-- Understand what the Linux kernel is
-- Check system uptime
-- Read system time and date
-- Discover your system hostname
+- Understand uptime, time, and hostname
 
-🎯 **Mindset outcome**
-> “I’m not scared anymore.”
-
-Take it slow. Read the output. Linux always explains itself.
+👉 Goal: **Remove fear. Build confidence.**

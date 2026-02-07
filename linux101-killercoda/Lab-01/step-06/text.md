@@ -1,10 +1,8 @@
-## Lab 6 – Understanding System Time and Date
+## Scenario
 
-Time matters in Linux:
-- Logs
-- Backups
-- Security
-- Automation
+Every system keeps track of time.
+
+Linux can show you the current date and time instantly.
 
 ### Your task
 

@@ -1,11 +1,9 @@
-## Lab 4 – Understanding the Linux Kernel
+## Scenario
 
-The kernel is the **core of Linux**.
-It talks to:
-- CPU
-- Memory
-- Disk
-- Hardware
+Linux has a **core** called the kernel.
+You don’t need to understand it yet.
+
+Just see it.
 
 ### Your task
 

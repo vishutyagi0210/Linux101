@@ -1,7 +1,2 @@
-
-### `step-05/verify.sh`
-
-```bash
 #!/bin/bash
-
-uptime >/dev/null 2>&1
+history | grep -q "uptime" && exit 0 || exit 1

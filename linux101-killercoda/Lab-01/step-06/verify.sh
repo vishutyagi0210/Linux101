@@ -1,7 +1,2 @@
-
-### `step-06/verify.sh`
-
-```bash
 #!/bin/bash
-
-date >/dev/null 2>&1
+history | grep -q "date" && exit 0 || exit 1

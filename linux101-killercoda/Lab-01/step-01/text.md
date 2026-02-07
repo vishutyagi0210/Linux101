@@ -1,14 +1,13 @@
-## Lab 1 – Opening the Terminal and Understanding It
+## Scenario
 
-The terminal is how you **talk to Linux**.
+The terminal is how humans **talk to Linux**.
 
-It is NOT dangerous.
-It does NOT break your system.
-It simply listens to commands.
+It does exactly what you tell it to do.
+No magic. No traps.
 
 ### Your task
 
 Run this command:
 
 ```bash
-echo "Hello Linux"
+echo "hello linux"

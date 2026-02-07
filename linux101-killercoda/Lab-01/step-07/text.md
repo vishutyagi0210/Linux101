@@ -1,12 +1,7 @@
-## Lab 7 – Discovering Your System Hostname
+## Scenario
 
 Every Linux system has a **name**.
-
-This is important for:
-- Networks
-- Servers
-- Logs
-- Identification
+This is called the hostname.
 
 ### Your task
 

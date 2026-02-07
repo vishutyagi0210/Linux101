@@ -1,7 +1,2 @@
-
-### `step-02/verify.sh`
-
-```bash
 #!/bin/bash
-
-whoami >/dev/null 2>&1
+history | grep -q "whoami" && exit 0 || exit 1

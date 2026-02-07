@@ -1,21 +1,18 @@
-# Stage 01 Complete 🎉
-
-You did it.
+## 🎉 Stage Complete!
 
 You:
 - Used the terminal
-- Learned your Linux identity
-- Discovered Ubuntu version
-- Understood the kernel
-- Checked uptime
-- Read system time
-- Found your hostname
+- Ran real Linux commands
+- Observed system behavior
+- Did not break anything 😄
 
-🎯 **Mindset unlocked**
-> “I’m not scared anymore.”
+Most importantly:
 
-Next stage:
-➡️ **Where am I? (Filesystem Orientation)**
+👉 **You are no longer afraid of Linux.**
 
-Linux didn’t bite.
-It explained itself.
+In the next stage, you’ll learn:
+- Where you are in the filesystem
+- How Linux organizes things
+
+Take a breath.
+You’re doing great.

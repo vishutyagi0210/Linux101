@@ -1,8 +1,2 @@
-
-### `step-01/verify.sh`
-
-```bash
 #!/bin/bash
-
-# Always succeed – this step is about confidence
-exit 0
+history | grep -q 'echo "hello linux"' && exit 0 || exit 1

@@ -1,7 +1,2 @@
-
-### `step-07/verify.sh`
-
-```bash
 #!/bin/bash
-
-hostname >/dev/null 2>&1
+history | grep -q "hostname" && exit 0 || exit 1

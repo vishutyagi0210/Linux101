@@ -1,7 +1,2 @@
-
-### `step-03/verify.sh`
-
-```bash
 #!/bin/bash
-
-grep -q "Ubuntu" /etc/os-release
+history | grep -q "cat /etc/os-release" && exit 0 || exit 1

@@ -1,6 +1,8 @@
-## Lab 5 – System Uptime
+## Scenario
 
 Linux always knows how long it has been running.
+
+This is called **uptime**.
 
 ### Your task
 
