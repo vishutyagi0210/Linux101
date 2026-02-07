@@ -7,43 +7,43 @@
         "title": "Lab 1 – Opening the Terminal", 
         "text": "step-01/text.md", 
         "verify": "step-01/verify.sh",
-        "foreground": "step-01/setup.sh"
+        "background": "step-01/setup.sh"
       },
       { 
         "title": "Lab 2 – Who Am I on This System?", 
         "text": "step-02/text.md", 
         "verify": "step-02/verify.sh",
-        "foreground": "step-02/setup.sh"
+        "background": "step-02/setup.sh"
       },
       { 
         "title": "Lab 3 – Ubuntu Version Awareness", 
         "text": "step-03/text.md", 
         "verify": "step-03/verify.sh",
-        "foreground": "step-03/setup.sh"
+        "background": "step-03/setup.sh"
       },
       { 
         "title": "Lab 4 – Understanding the Kernel", 
         "text": "step-04/text.md", 
         "verify": "step-04/verify.sh",
-        "foreground": "step-04/setup.sh"
+        "background": "step-04/setup.sh"
       },
       { 
         "title": "Lab 5 – System Uptime", 
         "text": "step-05/text.md", 
         "verify": "step-05/verify.sh",
-        "foreground": "step-05/setup.sh"
+        "background": "step-05/setup.sh"
       },
       { 
         "title": "Lab 6 – Date and Time", 
         "text": "step-06/text.md", 
         "verify": "step-06/verify.sh",
-        "foreground": "step-06/setup.sh"
+        "background": "step-06/setup.sh"
       },
       { 
         "title": "Lab 7 – Hostname Awareness", 
         "text": "step-07/text.md", 
         "verify": "step-07/verify.sh",
-        "foreground": "step-07/setup.sh"
+        "background": "step-07/setup.sh"
       }
     ],
     "finish": { "text": "finish.md" }
