@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -q "hostname" /root/.bash_history && exit 0 || exit 1
+grep -q "hostname" ./.bash_history && exit 0 || exit 1
