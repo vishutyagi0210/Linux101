@@ -1,27 +1,28 @@
-## What you are learning
+# Lab 15: The Control Room
 
-Linux stores system configuration in a dedicated place.
-That place is the `/etc` directory.
+## 1. The Concept
+How does the system know its name? How does it know which users exist?
+It reads configuration files.
+Almost all system-wide configuration lives in `/etc` (Editable Text Configuration).
 
-You normally **do not create files here** as a beginner.
-You only need to know what it contains.
+## 2. The Task
+Peek inside the system's brain.
 
----
-
-## Command
+Run this command:
 
 ```bash
 ls /etc
-Explanation
-/etc contains system configuration files
+```
 
-These files control how the system behaves
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-Most files here are text-based configuration files
+## 3. What just happened?
+You saw a huge list of files. These text files control almost every aspect of the system.
 
-For now, you are only observing.
-
-Your Task
-List the contents of the /etc directory:
-
-ls /etc
+---
+**Mindset**: "Configuration is transparent."

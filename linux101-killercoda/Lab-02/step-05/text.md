@@ -1,19 +1,27 @@
-## What you are learning
+# Lab 12: The Undo Button
 
-Linux remembers the last directory you were in.
-You can switch back without typing the full path again.
+## 1. The Concept
+Sometimes you jump to a directory and realize you need to go back where you just were.
+You don't need to remember the path. Linux remembers for you.
 
----
+## 2. The Task
+Switch back to the **previous** directory you were in.
 
-## Command
+Run this command:
 
 ```bash
 cd -
-Explanation
-Switches to the previous directory
+```
 
-Useful when navigating back and forth
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-Your Task
-Switch back to the previous directory:
-cd -
+## 3. What just happened?
+You jumped back to the Root directory (since that was where you were before Home).
+
+---
+**Mindset**: "I can retrace my steps."

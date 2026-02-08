@@ -1,39 +1,27 @@
-## What you are learning
+# Lab 8: Where Am I?
 
-Linux always keeps track of your **current directory**.
-This directory is where commands operate by default.
+## 1. The Concept
+Imagine you are dropped into a maze. The first thing you need to know is your current location.
+In Linux, you are always "inside" a directory. Commands affect files *here* unless you say otherwise.
 
-Before running any serious command, you should always know:
-👉 “Where am I right now?”
+## 2. The Task
+Ask Linux for your **P**resent **W**orking **D**irectory.
 
----
-
-## Command
+Run this command:
 
 ```bash
-pwd
-
-Explanation
-
-pwd means Present Working Directory
-
-It prints the full path of your current directory
-
-It does not modify anything
-
-This command is used only to get information.
-
-Your Task
-
-Run the command below and observe the output:
-
 pwd
 ```
-- if you hit any validation error even though you have write the correct command.
 
-```bash
-# try 
-history -a
-``` 
-then try again !! 
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
+## 3. What just happened?
+Linux printed the full path to where you are standing (e.g., `/root` or `/home/ubuntu`).
+
+---
+**Mindset**: "I always know my location."

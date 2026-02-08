@@ -1,24 +1,27 @@
-## What you are learning
+# Lab 10: Going to the Top
 
-Linux never changes your location automatically.
-You must explicitly tell Linux where to go.
+## 1. The Concept
+The filesystem is a tree. The very bottom (or top, depending on how you look at it) is called the **Root**.
+It is represented by a single forward slash: `/`.
 
----
+## 2. The Task
+**C**hange **D**irectory to the root of the filesystem.
 
-## Command
+Run this command:
 
 ```bash
 cd /
-Explanation
-cd means Change Directory
+```
 
-/ represents the root directory
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-The root directory is the top level of Linux
+## 3. What just happened?
+Your prompt likely changed. You are now at the base of the entire Linux system.
 
-After this command, your location changes.
-
-Your Task
-Move to the root directory:
-
-cd /
+---
+**Mindset**: "I can move to the source."

@@ -1,24 +1,27 @@
-## What you are learning
+# Lab 9: What Is Around Me?
 
-Directories contain files and other directories.
-Linux provides a command to list what exists at your current location.
+## 1. The Concept
+Once you know *where* you are, you need to see *what* is around you.
+Linux doesn't show you files automatically; you have to ask for a list.
 
----
+## 2. The Task
+**L**i**s**t the files and directories in your current location.
 
-## Command
+Run this command:
 
 ```bash
 ls
-Explanation
-ls means List
+```
 
-It shows files and directories in the current directory
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-It does not open or change anything
+## 3. What just happened?
+You saw the names of files and folders in your current directory. If nothing printed, the directory is empty.
 
-This is one of the most commonly used Linux commands.
-
-Your Task
-Run the command and look at the names shown:
-
-ls
+---
+**Mindset**: "I can see my surroundings."

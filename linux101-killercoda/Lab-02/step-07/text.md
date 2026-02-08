@@ -1,20 +1,27 @@
-## What you are learning
+# Lab 14: The Neighborhood
 
-Linux is a multi-user system.
-Each user has a separate directory under `/home`.
+## 1. The Concept
+Linux is designed for many users. Each user gets a directory under `/home` to store their personal files (documents, downloads, etc.).
+It’s like an apartment building where everyone has their own unit.
 
----
+## 2. The Task
+See who "lives" on this system.
 
-## Command
+Run this command:
 
 ```bash
 ls /home
-Explanation
-Shows all user home directories
+```
 
-Each directory usually belongs to one user
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-Your Task
-List the contents of /home:
+## 3. What just happened?
+You likely saw a directory for your user (e.g., `ubuntu`) and maybe others.
 
-ls /home
+---
+**Mindset**: "Users are separated for safety."

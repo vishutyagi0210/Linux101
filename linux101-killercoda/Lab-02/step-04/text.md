@@ -1,22 +1,27 @@
-## What you are learning
+# Lab 11: There's No Place Like Home
 
-Every Linux user has a **home directory**.
-This is the default working area for a user.
+## 1. The Concept
+Every user has a private space called the **Home Directory**.
+Linux provides a shortcut to get there quickly: the tilde symbol `~`.
 
----
+## 2. The Task
+Return to your safe haven immediately.
 
-## Command
+Run this command:
 
 ```bash
 cd ~
-Explanation
-~ is a shortcut for your home directory
+```
 
-This works from anywhere in the system
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-This is the safest place to work as a user.
+## 3. What just happened?
+You were instantly transported back to your personal directory, no matter where you were before.
 
-Your Task
-Return to your home directory:
-
-cd ~
+---
+**Mindset**: "I have a safe base."

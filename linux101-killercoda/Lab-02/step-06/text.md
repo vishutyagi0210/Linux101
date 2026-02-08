@@ -1,22 +1,27 @@
-## What you are learning
+# Lab 13: The Root of All Things
 
-The root directory contains the main system folders.
-Understanding what exists here helps you understand Linux structure.
+## 1. The Concept
+The **Root Directory** `/` is the start of everything. All other files and directories branch off from here.
+It’s like the trunk of the tree.
 
----
+## 2. The Task
+Take a look at the foundation of the OS.
 
-## Command
+Run this command:
 
 ```bash
 ls /
-Explanation
-Lists directories under the root
+```
 
-These directories support the operating system
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-You are only viewing, not changing anything.
+## 3. What just happened?
+You saw list of standard directories like `bin`, `etc`, `home`, `var`, `usr`. This is the standard layout of almost every Linux system.
 
-Your Task
-List the contents of the root directory:
-
-ls /
+---
+**Mindset**: "I understand the hierarchy."

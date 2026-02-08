@@ -1,24 +1,27 @@
-## What you are learning
+# Lab 17: The Launchpad
 
-Linux needs files to start the system.
-These files are stored in the `/boot` directory.
+## 1. The Concept
+To start up (boot), Linux needs some very specific files—like the **Kernel** itself.
+These critical files live in `/boot`. If you delete things here, the system won't start.
 
----
+## 2. The Task
+Look, but don't touch.
 
-## Command
+Run this command:
 
 ```bash
 ls /boot
-Explanation
-/boot contains bootloader and kernel-related files
+```
 
-These files are required when the system starts
+> **Troubleshooting**: If you hit any validation error even though you wrote the correct command:
+> ```bash
+> # try 
+> history -a
+> ``` 
+> then try again!
 
-Beginners should never modify files here
+## 3. What just happened?
+You saw files like `vmlinuz` (the kernel) and `grub` (the bootloader configuration).
 
-You are only viewing.
-
-Your Task
-List the contents of the /boot directory:
-
-ls /boot
+---
+**Mindset**: "I respect the boot process."
