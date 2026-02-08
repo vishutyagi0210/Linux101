@@ -28,4 +28,12 @@ Your Task
 Run the command below and observe the output:
 
 pwd
+```
+- if you hit any validation error even though you have write the correct command.
+
+```bash
+# try 
+history -a
+``` 
+then try again !! 
 

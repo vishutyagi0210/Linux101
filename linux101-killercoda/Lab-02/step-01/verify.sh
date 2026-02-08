@@ -1,2 +1,2 @@
 #!/bin/bash
-history | grep -q "pwd"  && exit 0 || exit 1
+grep -q "pwd" ~/.bash_history && exit 0 || exit 1
