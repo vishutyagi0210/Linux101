@@ -11,13 +11,6 @@ Run this command:
 mkdir workspace
 ```
 
-> **Troubleshooting**: If you hit any validation error:
-> ```bash
-> # try 
-> history -a
-> ``` 
-> then try again!
-
 ## 3. What just happened?
 You created a new container for your files.
 Verify it with `ls -d workspace` or just `ls`.

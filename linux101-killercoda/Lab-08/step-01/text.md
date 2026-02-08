@@ -12,13 +12,6 @@ Run this command:
 touch ghost.txt
 ```
 
-> **Troubleshooting**: If you hit any validation error:
-> ```bash
-> # try 
-> history -a
-> ``` 
-> then try again!
-
 ## 3. What just happened?
 You created a file out of thin air. It has 0 bytes, but it exists.
 Check it with `ls -l` if you like.

@@ -12,13 +12,6 @@ Run this command:
 mkdir -p project/src/logs
 ```
 
-> **Troubleshooting**: If you hit any validation error:
-> ```bash
-> # try 
-> history -a
-> ``` 
-> then try again!
-
 ## 3. What just happened?
 Linux created `project`, then `src`, then `logs`. One command, three directories.
 
