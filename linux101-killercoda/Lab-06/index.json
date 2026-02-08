@@ -1,0 +1,40 @@
+{
+    "title": "Stage 05 – Doing multiple things: Control",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 35. Running multiple commands one after another",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 36. Running a command only if the previous one succeeds",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 37. Running a command only if the previous one fails",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 38. Understanding when to use each operator",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "foreground/setup.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
