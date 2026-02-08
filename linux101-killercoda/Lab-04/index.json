@@ -1,0 +1,52 @@
+{
+    "title": "Stage 03 – Talking to Linux: Command Basics",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 24. Understanding how Linux commands are structured",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 25. Understanding commands, options, and arguments",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 26. Running commands safely without breaking anything",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 27. Using tab completion to avoid typing mistakes",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 28. Discovering what happens when a command fails",
+                "text": "step-05/text.md",
+                "verify": "step-05/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 29. Understanding exit status (success vs failure)",
+                "text": "step-06/text.md",
+                "verify": "step-06/verify.sh",
+                "foreground": "foreground/setup.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

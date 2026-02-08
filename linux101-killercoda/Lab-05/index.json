@@ -1,0 +1,46 @@
+{
+    "title": "Stage 04 – Memory & Speed: Efficiency",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 30. Viewing previously run commands",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 31. Re-running the last command",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 32. Running a specific command from history",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 33. Searching command history",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 34. Understanding why history makes you faster",
+                "text": "step-05/text.md",
+                "verify": "step-05/verify.sh",
+                "foreground": "foreground/setup.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
