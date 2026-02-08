@@ -1,5 +1,3 @@
-# Lab 13: The Root of All Things
-
 ## 1. The Concept
 The **Root Directory** `/` is the start of everything. All other files and directories branch off from here.
 It’s like the trunk of the tree.

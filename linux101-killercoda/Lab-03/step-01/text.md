@@ -1,5 +1,3 @@
-# Lab 18: More Information
-
 ## 1. The Concept
 By default, `ls` only shows names. But files have secrets: sizes, dates, and owners.
 To see these secrets, we need to ask for the "long" format.

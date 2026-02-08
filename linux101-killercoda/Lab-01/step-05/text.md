@@ -1,10 +1,9 @@
-# Lab 5: How long have I been here?
-
 ## 1. The Concept
-Some Linux servers run for years without restarting. Knowing how long a system has been running is a badge of honor (and vital for troubleshooting).
+Servers are designed to run forever. You often want to know: "How long has this machine been on?"
+This is called **Uptime**.
 
 ## 2. The Task
-Check the system's "uptime".
+Check the system's stamina.
 
 Run this command:
 
@@ -20,7 +19,8 @@ uptime
 > then try again!
 
 ## 3. What just happened?
-You will see how long the system has been up (e.g., `up 2 min`) and how busy it is (load average).
+You saw a time duration (e.g., `up 2 min`). On real servers, you might see `up 300 days`.
+It also shows "load average," which is how busy the CPU is (lower is better).
 
 ---
-**Mindset**: "Stability is measurable."
+**Mindset**: "Servers are built to last."

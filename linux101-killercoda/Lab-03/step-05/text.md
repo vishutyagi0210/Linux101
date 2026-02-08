@@ -1,5 +1,3 @@
-# Lab 22: Going Deeper
-
 ## 1. The Concept
 Directories can contain other directories (sub-directories).
 To see everything inside a folder *and* everything inside its sub-folders, you command Linux to look **Recursively**.

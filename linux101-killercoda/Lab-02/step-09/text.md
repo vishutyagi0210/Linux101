@@ -1,5 +1,3 @@
-# Lab 16: The Changing World
-
 ## 1. The Concept
 Some things change constantly: Log files, email queues, temporary print jobs.
 Linux keeps these "variable" files in `/var` so they don't clutter up other places.

@@ -1,5 +1,3 @@
-# Lab 1: Speaking First Words
-
 ## 1. The Concept
 The terminal is just a conversation partner. It doesn't guess; it waits for you to tell it what to do.
 Think of it like a very literal genie. You ask, it does.

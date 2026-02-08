@@ -1,5 +1,3 @@
-# Lab 15: The Control Room
-
 ## 1. The Concept
 How does the system know its name? How does it know which users exist?
 It reads configuration files.

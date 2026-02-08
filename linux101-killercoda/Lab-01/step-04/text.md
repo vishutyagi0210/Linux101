@@ -1,5 +1,3 @@
-# Lab 4: The Heart of the System
-
 ## 1. The Concept
 At the very core of Linux is the **Kernel**. It's the engine that talks to the hardware. You mostly interact with the shell (the steering wheel), but the kernel does the heavy lifting.
 

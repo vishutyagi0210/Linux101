@@ -1,5 +1,3 @@
-# Lab 11: There's No Place Like Home
-
 ## 1. The Concept
 Every user has a private space called the **Home Directory**.
 Linux provides a shortcut to get there quickly: the tilde symbol `~`.

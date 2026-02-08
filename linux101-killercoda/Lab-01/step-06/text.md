@@ -1,7 +1,6 @@
-# Lab 6: Is It The Future Yet?
-
 ## 1. The Concept
-Time matters in Linux. Logs, security certificates, and scheduled tasks all depend on accurate time. If your clock is wrong, things break.
+Computers track time precisely. Logs, errors, and files are all time-stamped.
+If the date is wrong, security certificates fail and chaos ensues.
 
 ## 2. The Task
 Ask the system for the current date and time.
@@ -20,7 +19,8 @@ date
 > then try again!
 
 ## 3. What just happened?
-Linux responded with the exact date, time, and timezone (e.g., `UTC` or `EST`).
+You saw the exact time including the timezone (e.g., `UTC` or `EST`).
+Linux servers usually run on **UTC** (Coordinated Universal Time) to avoid confusion between timezones.
 
 ---
 **Mindset**: "Time is critical for order."

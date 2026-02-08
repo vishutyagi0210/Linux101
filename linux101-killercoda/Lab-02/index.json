@@ -1,70 +1,74 @@
 {
-  "title": "Stage 01 – Orientation: Understanding the Linux Filesystem",
+  "title": "Stage 01 – Orientation: Where am I?",
   "details": {
-    "intro": { "text": "intro.md" },
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
-        "title": "Lab 8 – Understanding Your Current Location",
+        "title": "Lab 8. Understanding where you are inside the system (current directory)",
         "text": "step-01/text.md",
         "verify": "step-01/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 9 – Listing What Exists Around You",
+        "title": "Lab 9. Listing what exists around you",
         "text": "step-02/text.md",
         "verify": "step-02/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 10 – Moving Between Directories Safely",
+        "title": "Lab 10. Moving between directories safely",
         "text": "step-03/text.md",
         "verify": "step-03/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 11 – Understanding the Home Directory",
+        "title": "Lab 11. Understanding home directory and why it matters",
         "text": "step-04/text.md",
         "verify": "step-04/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 12 – Going Back and Forth Between Directories",
+        "title": "Lab 12. Going back and forth between directories efficiently",
         "text": "step-05/text.md",
         "verify": "step-05/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 13 – Exploring the Root of the Linux Filesystem",
+        "title": "Lab 13. Exploring the root of the Linux filesystem",
         "text": "step-06/text.md",
         "verify": "step-06/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 14 – Understanding What /home Is Used For",
+        "title": "Lab 14. Understanding what /home is used for",
         "text": "step-07/text.md",
         "verify": "step-07/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 15 – Understanding What /etc Is Used For",
+        "title": "Lab 15. Understanding what /etc is used for",
         "text": "step-08/text.md",
         "verify": "step-08/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 16 – Understanding What /var Is Used For",
+        "title": "Lab 16. Understanding what /var is used for",
         "text": "step-09/text.md",
         "verify": "step-09/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       },
       {
-        "title": "Lab 17 – Understanding What /boot Is Used For",
+        "title": "Lab 17. Understanding what /boot is used for",
         "text": "step-10/text.md",
         "verify": "step-10/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "../foreground/setup.sh"
       }
     ],
-    "finish": { "text": "finish.md" }
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"

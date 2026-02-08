@@ -1,5 +1,3 @@
-# Lab 23: The Big Picture
-
 ## 1. The Concept
 `ls -R` is powerful, but the output can be messy.
 Sometimes you want to see the hierarchy as a **Tree**.

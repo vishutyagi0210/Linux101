@@ -1,5 +1,3 @@
-# Lab 10: Going to the Top
-
 ## 1. The Concept
 The filesystem is a tree. The very bottom (or top, depending on how you look at it) is called the **Root**.
 It is represented by a single forward slash: `/`.

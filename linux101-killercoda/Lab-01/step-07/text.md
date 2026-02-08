@@ -1,10 +1,9 @@
-# Lab 7: What Is My Name?
-
 ## 1. The Concept
-Just like people, computers have names. This is how other computers on the network find them. We call this the **hostname**.
+Every computer on a network has a name. This is its **Hostname**.
+It's how other computers refer to it, instead of using a confusing IP address.
 
 ## 2. The Task
-Discover the specialized name of this machine.
+Find out what your machine calls itself.
 
 Run this command:
 
@@ -20,7 +19,7 @@ hostname
 > then try again!
 
 ## 3. What just happened?
-You saw the machine's name (e.g., `controlplane` or `node01`). This is how the network sees this computer.
+You saw a name (e.g., `controlplane` or `node01`). This is your machine's ID card on the network.
 
 ---
-**Mindset**: "I am distinct from others."
+**Mindset**: "I have a name in the network."

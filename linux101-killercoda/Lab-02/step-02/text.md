@@ -1,5 +1,3 @@
-# Lab 9: What Is Around Me?
-
 ## 1. The Concept
 Once you know *where* you are, you need to see *what* is around you.
 Linux doesn't show you files automatically; you have to ask for a list.

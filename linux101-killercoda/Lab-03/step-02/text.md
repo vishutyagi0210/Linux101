@@ -1,5 +1,3 @@
-# Lab 19: Hidden In Plain Sight
-
 ## 1. The Concept
 Linux hides files that start with a dot (`.`). These are usually configuration files that you don't need to see every day.
 But they are there.

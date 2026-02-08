@@ -1,5 +1,3 @@
-# Lab 12: The Undo Button
-
 ## 1. The Concept
 Sometimes you jump to a directory and realize you need to go back where you just were.
 You don't need to remember the path. Linux remembers for you.

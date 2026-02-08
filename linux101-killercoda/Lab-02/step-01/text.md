@@ -1,5 +1,3 @@
-# Lab 8: Where Am I?
-
 ## 1. The Concept
 Imagine you are dropped into a maze. The first thing you need to know is your current location.
 In Linux, you are always "inside" a directory. Commands affect files *here* unless you say otherwise.

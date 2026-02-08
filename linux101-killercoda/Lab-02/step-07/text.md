@@ -1,5 +1,3 @@
-# Lab 14: The Neighborhood
-
 ## 1. The Concept
 Linux is designed for many users. Each user gets a directory under `/home` to store their personal files (documents, downloads, etc.).
 It’s like an apartment building where everyone has their own unit.

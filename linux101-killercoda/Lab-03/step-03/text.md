@@ -1,5 +1,3 @@
-# Lab 20: Reading the Matrix
-
 ## 1. The Concept
 When you look at `ls -l`, the first column is the most important.
 It tells you if a thing is a file (`-`) or directory (`d`), and who can read/write it (`rwx`).

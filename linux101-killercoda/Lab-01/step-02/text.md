@@ -1,5 +1,3 @@
-# Lab 2: Who Are You?
-
 ## 1. The Concept
 In Linux, every action is performed by a **user**. The system needs to know who you are to decide what you are allowed to do.
 

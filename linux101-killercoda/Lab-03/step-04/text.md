@@ -1,5 +1,3 @@
-# Lab 21: How Big Is It?
-
 ## 1. The Concept
 Computer sizes are in bytes. `4096` bytes is okay, but `4398046511104` bytes is visible confusion.
 Humans prefer K (Kilobytes), M (Megabytes), and G (Gigabytes).

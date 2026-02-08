@@ -1,5 +1,3 @@
-# Lab 17: The Launchpad
-
 ## 1. The Concept
 To start up (boot), Linux needs some very specific files—like the **Kernel** itself.
 These critical files live in `/boot`. If you delete things here, the system won't start.

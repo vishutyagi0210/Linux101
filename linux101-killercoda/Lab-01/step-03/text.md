@@ -1,5 +1,3 @@
-# Lab 3: What System Is This?
-
 ## 1. The Concept
 Linux comes in many flavors called "distributions" (like Ubuntu, Fedora, Debian). Just like knowing whether you're driving a truck or a sports car, it helps to know what you're running.
 
