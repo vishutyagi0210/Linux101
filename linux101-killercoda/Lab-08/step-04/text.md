@@ -11,7 +11,9 @@ Update the timestamp of `notes.txt`.
 Run this command:
 
 ```bash
+ls -l notes.txt
 touch notes.txt
+ls -l notes.txt
 ```
 
 > **Troubleshooting**: If you hit any validation error:
