@@ -1,0 +1,46 @@
+{
+    "title": "Stage 06 – Working with output: Power",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 39. Sending command output into a file",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 40. Appending output to an existing file",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 41. Using files as input to commands",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 42. Connecting commands together using pipes",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 43. Using wildcards to match multiple files",
+                "text": "step-05/text.md",
+                "verify": "step-05/verify.sh",
+                "foreground": "foreground/setup.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
