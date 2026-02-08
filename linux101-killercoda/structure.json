@@ -5,7 +5,11 @@
   "items": [
     {
       "path": "Lab-01",
-      "title": "Stage-01 | Orientation"
+      "title": "Stage-00 | Orientation"
+    },
+    {
+      "path": "Lab-02",
+      "title": "Stage-01 | Where am I?"
     }
   ]
 }
