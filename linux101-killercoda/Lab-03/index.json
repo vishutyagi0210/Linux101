@@ -1,0 +1,52 @@
+{
+    "title": "Stage 02 – Seeing Clearly: Reading the Terminal",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 18 – Understanding Command Output",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "../foreground/setup.sh"
+            },
+            {
+                "title": "Lab 19 – Seeing Hidden Files",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "../foreground/setup.sh"
+            },
+            {
+                "title": "Lab 20 – Reading File Details",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "../foreground/setup.sh"
+            },
+            {
+                "title": "Lab 21 – Human-Readable File Sizes",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "../foreground/setup.sh"
+            },
+            {
+                "title": "Lab 22 – Listing Directories Recursively",
+                "text": "step-05/text.md",
+                "verify": "step-05/verify.sh",
+                "foreground": "../foreground/setup-Recursive.sh"
+            },
+            {
+                "title": "Lab 23 – Visualizing Structure with Tree",
+                "text": "step-06/text.md",
+                "verify": "step-06/verify.sh",
+                "foreground": "../foreground/setup-Tree.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
