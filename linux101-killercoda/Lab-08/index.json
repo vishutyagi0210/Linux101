@@ -1,0 +1,40 @@
+{
+    "title": "Stage 07 – Creating things: Ownership",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Lab 44. Creating empty files",
+                "text": "step-01/text.md",
+                "verify": "step-01/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 45. Creating directories",
+                "text": "step-02/text.md",
+                "verify": "step-02/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 46. Creating nested directories",
+                "text": "step-03/text.md",
+                "verify": "step-03/verify.sh",
+                "foreground": "foreground/setup.sh"
+            },
+            {
+                "title": "Lab 47. Understanding file creation timestamps",
+                "text": "step-04/text.md",
+                "verify": "step-04/verify.sh",
+                "foreground": "foreground/setup-timestamp.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
