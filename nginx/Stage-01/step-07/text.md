@@ -109,4 +109,64 @@ You learned the **troubleshooting workflow**:
 **Always check error logs first!**
 
 ---
-**Mindset**: "HTTP codes + logs = root cause."
+
+## 💡 Troubleshooting Hints
+
+When debugging Nginx issues, follow this systematic approach:
+
+### 1. Check if Nginx is Running
+```bash
+systemctl status nginx
+```
+
+**If not running:**
+```bash
+sudo systemctl start nginx
+sudo systemctl status nginx
+```
+
+### 2. Check Configuration Syntax
+```bash
+sudo nginx -t
+```
+
+**If errors:** Fix the config file mentioned in the error message.
+
+### 3. Check Error Logs
+```bash
+sudo tail -n 20 /var/log/nginx/error.log
+```
+
+**Look for:**
+- File paths (404 errors)
+- Connection refused (502 errors)
+- Permission denied (403 errors)
+
+### 4. Check Access Logs
+```bash
+sudo tail -n 20 /var/log/nginx/access.log
+```
+
+**Look for:**
+- Status codes (200, 404, 502, 503)
+- Request patterns
+- IP addresses
+
+### 5. Verify File Permissions
+```bash
+ls -la /var/www/html/
+```
+
+**Files should be:** `644` (readable by Nginx)  
+**Directories should be:** `755` (executable/browsable)
+
+### Common Issues Checklist:
+- [ ] Is Nginx service running? (`systemctl status nginx`)
+- [ ] Is config valid? (`nginx -t`)
+- [ ] Are error logs showing anything? (`tail /var/log/nginx/error.log`)
+- [ ] Do files exist? (`ls -la /var/www/html/`)
+- [ ] Are permissions correct? (`chmod 644` for files, `chmod 755` for dirs)
+- [ ] Is backend running? (for 502 errors)
+
+---
+**Mindset**: "HTTP codes + logs + service status = root cause."
