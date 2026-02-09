@@ -6,6 +6,26 @@
 ## 2. The Task
 Create a virtual host for `shop.local`.
 
+### Step 0: Verify Nginx is Installed
+First, check if Nginx is running:
+```bash
+systemctl status nginx
+```
+
+If you see "could not be found", install Nginx:
+```bash
+sudo apt update
+sudo apt install -y nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+Verify it's running:
+```bash
+systemctl status nginx
+curl http://localhost
+```
+
 ### Step 1: Create Document Root
 ```bash
 sudo mkdir -p /var/www/shop.local

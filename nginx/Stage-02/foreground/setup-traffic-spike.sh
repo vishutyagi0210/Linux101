@@ -1,4 +1,9 @@
 #!/bin/bash
+# Install and start Nginx
+apt update -qq
+apt install -y nginx
+systemctl start nginx
+
 # Generate realistic traffic spike scenario - Production-grade data
 # Scenario: E-commerce site, normal traffic until 10:00 AM, then massive spike
 
