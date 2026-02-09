@@ -1,0 +1,48 @@
+{
+  "title": "Nginx Stage 01 – Foundation",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      {
+        "title": "Lab 1. Installing and Starting Nginx",
+        "text": "step-01/text.md",
+        "verify": "step-01/verify.sh",
+        "foreground": "foreground/setup.sh"
+      },
+      {
+        "title": "Lab 2. Understanding Nginx Architecture",
+        "text": "step-02/text.md",
+        "verify": "step-02/verify.sh",
+        "foreground": "foreground/setup.sh"
+      },
+      {
+        "title": "Lab 3. Configuration File Structure",
+        "text": "step-03/text.md",
+        "verify": "step-03/verify.sh",
+        "foreground": "foreground/setup.sh"
+      },
+      {
+        "title": "Lab 4. Serving Static Files",
+        "text": "step-04/text.md",
+        "verify": "step-04/verify.sh",
+        "foreground": "foreground/setup-static.sh"
+      },
+      {
+        "title": "Lab 5. Testing Configuration",
+        "text": "step-05/text.md",
+        "verify": "step-05/verify.sh",
+        "foreground": "foreground/setup-broken.sh"
+      },
+      {
+        "title": "Lab 6. Reading Access and Error Logs",
+        "text": "step-06/text.md",
+        "verify": "step-06/verify.sh",
+        "foreground": "foreground/setup.sh"
+      }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

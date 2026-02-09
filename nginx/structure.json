@@ -1,0 +1,16 @@
+{
+    "scenarios": [
+        {
+            "path": "Stage-01",
+            "title": "Stage-01 | Foundation"
+        },
+        {
+            "path": "Stage-02",
+            "title": "Stage-02 | Web Server Basics"
+        },
+        {
+            "path": "Stage-03",
+            "title": "Stage-03 | Reverse Proxy Fundamentals"
+        }
+    ]
+}
