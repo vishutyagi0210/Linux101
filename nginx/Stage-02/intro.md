@@ -1,16 +1,40 @@
-# Nginx Stage 02 – Web Server Basics
+# Nginx Stage 02 – Web Server + Traffic Analysis
 
-## Hosting Websites Professionally
+## From Hosting to Investigating
 
-Now that you understand Nginx fundamentals, it's time to configure it like a professional web server.
+You've mastered the basics. Now it's time to configure Nginx like a professional web server administrator AND investigate real production incidents.
+
+### What You'll Build:
+- **Multi-site hosting** with virtual hosts
+- **Professional error pages** for better UX
+- **Security hardening** with headers and access control
+- **Protected areas** with authentication
+
+### What You'll Investigate:
+A **real traffic spike scenario** where you'll determine if it's:
+- ✅ Legitimate user growth
+- 🚨 Bot/scraper attack
+- ⚠️ DDoS attempt
+
+You'll use the same techniques production engineers use daily.
 
 ### In this stage, you will:
-- Host multiple websites on one server (virtual hosts)
-- Create custom error pages for better user experience
-- Enable directory browsing when needed
-- Understand how Nginx handles different file types
-- Add security headers to protect your users
-- Control who can access your server by IP address
-- Password-protect sensitive areas
+- Configure virtual hosts for multiple websites
+- Create custom error pages
+- Enable directory listing
+- Add security headers (X-Frame-Options, X-Content-Type-Options)
+- Control access by IP address
+- Implement password protection
+- **Investigate a traffic spike using production-grade log analysis**
 
-👉 **Mindset outcome**: "I can configure production-ready web servers."
+### Real-World Skills:
+- `awk` for log parsing
+- `grep` for pattern matching
+- `sort | uniq -c` for counting
+- Timestamp analysis
+- Bot detection
+- Attack pattern recognition
+
+👉 **Mindset outcome**: "I can host production websites AND investigate security incidents."
+
+Let's build and investigate! 🔍

@@ -1,28 +1,62 @@
 ## 1. The Concept
-Nginx writes two types of logs:
-- **Access log**: Every request (`/var/log/nginx/access.log`)
-- **Error log**: Problems and warnings (`/var/log/nginx/error.log`)
+Logs are your **first line of defense** when troubleshooting. Nginx writes two critical logs:
 
-These logs are essential for debugging.
+- **Access Log** (`/var/log/nginx/access.log`): Every request - who, when, what, status
+- **Error Log** (`/var/log/nginx/error.log`): Problems, warnings, errors
+
+Learning to read logs is THE most important troubleshooting skill.
 
 ## 2. The Task
-View the access log to see your previous `curl` request.
+Analyze the sample logs to find patterns and issues.
 
-Run these commands:
-
+### Step 1: View Access Log
 ```bash
-sudo tail -n 20 /var/log/nginx/access.log
-sudo tail -n 20 /var/log/nginx/error.log
+cat /var/log/nginx/access.log
+```
+
+**What to look for**:
+- IP addresses (who)
+- Timestamps (when)
+- Request paths (what)
+- Status codes (result: 200=OK, 404=Not Found, 502=Bad Gateway)
+- User-Agent (browser/bot)
+
+### Step 2: Find Errors
+```bash
+grep " 404 " /var/log/nginx/access.log
+grep " 502 " /var/log/nginx/access.log
+```
+
+### Step 3: Identify Bot Traffic
+```bash
+grep "python-requests" /var/log/nginx/access.log
+```
+
+### Step 4: View Error Log
+```bash
+cat /var/log/nginx/error.log
+```
+
+**Error log shows**:
+- Exact error message
+- File paths
+- Client IP
+- Request details
+
+### Step 5: Count Requests by IP
+```bash
+awk '{print $1}' /var/log/nginx/access.log | sort | uniq -c | sort -nr
 ```
 
 ## 3. What just happened?
-- **Access log** shows: IP, timestamp, request, status code, user-agent
-- **Error log** shows: Errors, warnings, notices
+You learned to:
+- Read access logs (request details)
+- Filter by status code
+- Identify bots vs humans
+- Read error logs (root causes)
+- Count requests per IP (detect patterns)
 
-**Log format example**:
-```
-127.0.0.1 - - [09/Feb/2026:07:00:00 +0000] "GET / HTTP/1.1" 200 612
-```
+**Key Insight**: Logs tell the complete story. Always check logs first!
 
 ---
-**Mindset**: "Logs tell the story."
+**Mindset**: "Logs are the truth."

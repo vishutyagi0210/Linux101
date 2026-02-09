@@ -1,7 +1,9 @@
 {
-  "title": "Nginx Stage 01 – Foundation",
+  "title": "Nginx Stage 01 – Foundation + First Troubleshooting",
   "details": {
-    "intro": { "text": "intro.md" },
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
         "title": "Lab 1. Installing and Starting Nginx",
@@ -28,19 +30,27 @@
         "foreground": "foreground/setup-static.sh"
       },
       {
-        "title": "Lab 5. Testing Configuration",
+        "title": "Lab 5. Testing Configuration (Fix Broken Config)",
         "text": "step-05/text.md",
         "verify": "step-05/verify.sh",
         "foreground": "foreground/setup-broken.sh"
       },
       {
-        "title": "Lab 6. Reading Access and Error Logs",
+        "title": "Lab 6. Reading & Analyzing Logs",
         "text": "step-06/text.md",
         "verify": "step-06/verify.sh",
-        "foreground": "foreground/setup.sh"
+        "foreground": "foreground/setup-logs.sh"
+      },
+      {
+        "title": "Lab 7. Troubleshooting: Site is Down (404/502/503)",
+        "text": "step-07/text.md",
+        "verify": "step-07/verify.sh",
+        "foreground": "foreground/setup-broken-site.sh"
       }
     ],
-    "finish": { "text": "finish.md" }
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"

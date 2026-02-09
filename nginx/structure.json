@@ -1,19 +1,15 @@
 {
-  "title": "Nginx – Zero to Hero",
-  "description": "Master Nginx from basics to production: web server, reverse proxy, load balancing, SSL, and more.",
-  "author": "Vishal Tyagi",
-  "items": [
-    {
-      "path": "Stage-01",
-      "title": "Stage-01 | Foundation"
-    },
-    {
-      "path": "Stage-02",
-      "title": "Stage-02 | Web Server Basics"
-    },
-    {
-      "path": "Stage-03",
-      "title": "Stage-03 | Reverse Proxy Fundamentals"
-    }
-  ]
+    "title": "Nginx – Zero to Hero",
+    "description": "Master Nginx from basics to production: web server, reverse proxy, load balancing, SSL, and more.",
+    "author": "Vishal Tyagi",
+    "items": [
+        {
+            "path": "Stage-01",
+            "title": "Stage-01 | Foundation + First Troubleshooting"
+        },
+        {
+            "path": "Stage-02",
+            "title": "Stage-02 | Web Server + Traffic Analysis"
+        }
+    ]
 }

@@ -1,51 +1,51 @@
 {
-    "title": "Nginx Stage 02 – Web Server Basics",
+    "title": "Nginx Stage 02 – Web Server + Traffic Analysis",
     "details": {
         "intro": {
             "text": "intro.md"
         },
         "steps": [
             {
-                "title": "Lab 7. Virtual Hosts (Server Blocks)",
+                "title": "Lab 8. Virtual Hosts (Multiple Websites)",
                 "text": "step-01/text.md",
                 "verify": "step-01/verify.sh",
                 "foreground": "foreground/setup.sh"
             },
             {
-                "title": "Lab 8. Custom Error Pages",
+                "title": "Lab 9. Custom Error Pages",
                 "text": "step-02/text.md",
                 "verify": "step-02/verify.sh",
                 "foreground": "foreground/setup.sh"
             },
             {
-                "title": "Lab 9. Directory Listing",
+                "title": "Lab 10. Directory Listing (autoindex)",
                 "text": "step-03/text.md",
                 "verify": "step-03/verify.sh",
                 "foreground": "foreground/setup-files.sh"
             },
             {
-                "title": "Lab 10. File Types and MIME Types",
+                "title": "Lab 11. Security Headers",
                 "text": "step-04/text.md",
                 "verify": "step-04/verify.sh",
                 "foreground": "foreground/setup.sh"
             },
             {
-                "title": "Lab 11. Basic Security Headers",
+                "title": "Lab 12. Access Control by IP",
                 "text": "step-05/text.md",
                 "verify": "step-05/verify.sh",
                 "foreground": "foreground/setup.sh"
             },
             {
-                "title": "Lab 12. Access Control by IP",
+                "title": "Lab 13. Basic Authentication",
                 "text": "step-06/text.md",
                 "verify": "step-06/verify.sh",
                 "foreground": "foreground/setup.sh"
             },
             {
-                "title": "Lab 13. Basic Authentication",
+                "title": "Lab 14. REAL-WORLD: Traffic Spike Investigation",
                 "text": "step-07/text.md",
                 "verify": "step-07/verify.sh",
-                "foreground": "foreground/setup.sh"
+                "foreground": "foreground/setup-traffic-spike.sh"
             }
         ],
         "finish": {
