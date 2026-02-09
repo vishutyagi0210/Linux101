@@ -22,11 +22,12 @@ EOF
 ```
 
 ### Step 2: Configure Nginx
+Since we deleted the default site in Lab 1, we'll add the error page to our `shop.local` virtual host:
 ```bash
-sudo nano /etc/nginx/sites-available/default
+sudo nano /etc/nginx/sites-available/shop.local
 ```
 
-Add inside the `server { }` block:
+Add inside the `server { }` block (after the `index` line):
 ```nginx
 error_page 404 /404.html;
 location = /404.html {
@@ -34,11 +35,30 @@ location = /404.html {
 }
 ```
 
+Your complete config should look like:
+```nginx
+server {
+    listen 80;
+    server_name shop.local;
+    root /var/www/html;
+    index index.html;
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+```
+
 ### Step 3: Reload and Test
 ```bash
 sudo nginx -t
 sudo systemctl reload nginx
-curl http://localhost/nonexistent-page
+curl -H "Host: shop.local" http://localhost/nonexistent-page
 ```
 
 ## 3. What just happened?
