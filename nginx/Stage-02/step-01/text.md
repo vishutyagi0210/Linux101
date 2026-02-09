@@ -51,14 +51,20 @@ server {
 }
 ```
 
-### Step 3: Enable the Site
+### Step 3: Disable Default Site (Important!)
+The default Nginx site catches all requests. We need to disable it:
+```bash
+sudo rm /etc/nginx/sites-enabled/default
+```
+
+### Step 4: Enable the Site
 ```bash
 sudo ln -s /etc/nginx/sites-available/shop.local /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-### Step 4: Test
+### Step 5: Test
 ```bash
 curl -H "Host: shop.local" http://localhost
 ```
@@ -70,4 +76,54 @@ curl -H "Host: shop.local" http://localhost
 - Tested with curl using Host header (simulates DNS)
 
 ---
+
+## 💡 Troubleshooting
+
+### If you see the default Nginx page instead of "Welcome to Shop":
+
+**MOST COMMON ISSUE: Default site is still enabled**
+
+The default Nginx site catches all requests. Disable it:
+```bash
+sudo rm /etc/nginx/sites-enabled/default
+sudo systemctl reload nginx
+curl -H "Host: shop.local" http://localhost
+```
+
+You should now see "Welcome to Shop"!
+
+---
+
+**Other checks:**
+
+**1. Check if the config file exists:**
+```bash
+ls -la /etc/nginx/sites-available/shop.local
+```
+
+**2. Check if the symlink exists:**
+```bash
+ls -la /etc/nginx/sites-enabled/shop.local
+```
+
+**3. Check if the index.html exists:**
+```bash
+cat /var/www/shop.local/index.html
+```
+
+**4. Test the configuration:**
+```bash
+sudo nginx -t
+```
+
+**5. Reload Nginx:**
+```bash
+sudo systemctl reload nginx
+```
+
+---
+**Key Learning:** When using virtual hosts, disable the default site or it will catch all requests!
+
+---
 **Mindset**: "One server, unlimited websites."
+
