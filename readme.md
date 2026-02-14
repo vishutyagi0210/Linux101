@@ -241,28 +241,6 @@ Track your learning journey:
 - [ ] Complete all Killercoda labs
 - [ ] Contribute at least one pull request
 
----
-
-## 📞 Support & Community
-
-- **Issues:** Found a bug or have a suggestion? [Open an issue](../../issues)
-- **Discussions:** Have questions? Start a [discussion](../../discussions)
-- **Pull Requests:** Want to contribute? Submit a [pull request](../../pulls)
-
----
-
-## ⭐ Acknowledgments
-
-This repository is maintained by passionate Linux enthusiasts dedicated to making Linux education accessible to everyone. Special thanks to all contributors who help improve this resource!
-
----
-
-## 📜 License
-
-This project is open source and available for educational purposes. Please respect the contributors' work and give credit where due.
-
----
-
 <div align="center">
 
 ### 🐧 Master Linux. Master Technology. 🔥
