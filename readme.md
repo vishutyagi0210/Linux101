@@ -6,7 +6,7 @@
 
 [![Linux](https://img.shields.io/badge/Linux-Ready-success?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Killercoda Labs](https://img.shields.io/badge/Killercoda-Interactive%20Labs-blue?logo=terminal&logoColor=white)](https://killercoda.com/linux101)
-[![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)](https://github.com)
+[![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)]
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
 
 🚀 **[Launch Interactive Labs on Killercoda](https://killercoda.com/linux101)** 🚀
@@ -193,63 +193,6 @@ Contributions are what make this repository valuable for the community! We welco
 3. **Create** a feature branch (`git checkout -b feature/YourFeature`)
 4. **Follow** the existing structure and formatting
 5. **Submit** a pull request with clear descriptions
-
-### Naming Conventions
-
-**Must Follow These Rules:**
-
-**📁 Directories:** `##-topic-name/`
-```
-01-introduction/
-02-cli-basics/
-15-shell-scripting/
-```
-
-**📄 Markdown files:** `##-topic-name.md`
-```
-01-what-is-linux.md
-02-basic-commands.md
-```
-
-**📜 Scripts:** `action_name.sh`
-```
-check_disk_space.sh
-backup_system.sh
-```
-
-**Rules:**
-- ✅ Two digits (01-99)
-- ✅ Lowercase only
-- ✅ Hyphens for folders/md files
-- ✅ Underscores for scripts
-
-**Example Structure:**
-```
-linux101/
-├── 01-introduction/
-│   ├── 01-what-is-linux.md
-│   ├── 02-distributions.md
-│   └── scripts/
-│       └── install_check.sh
-```
-
-**Wrong ❌ → Right ✅**
-- `1-intro/` → `01-introduction/`
-- `CLI-Basics/` → `02-cli-basics/`
-- `WhatIsLinux.md` → `01-what-is-linux.md`
-- `check-disk.sh` → `check_disk_space.sh`
-
-### Quality Standards
-
-All contributions must be:
-- ✓ **Clean** - Well-organized and properly formatted
-- ✓ **Clear** - Easy to understand for learners
-- ✓ **Correct** - Technically accurate and tested
-- ✓ **Complete** - Includes examples where appropriate
-
-> **Note:** Only high-quality, well-formatted submissions will be merged. Every pull request is carefully reviewed.
-
----
 
 ## 🎓 Learning Outcomes
 

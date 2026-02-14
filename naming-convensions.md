@@ -1,35 +1,35 @@
-# Naming Conventions
+### Naming Conventions
 
-## Format
+**Must Follow These Rules:**
 
-**Directories:** `##-topic-name/`
+**📁 Directories:** `##-topic-name/`
 ```
 01-introduction/
 02-cli-basics/
 15-shell-scripting/
 ```
 
-**Markdown files:** `##-topic-name.md`
+**📄 Markdown files:** `##-topic-name.md`
 ```
 01-what-is-linux.md
 02-basic-commands.md
 ```
 
-**Scripts:** `action_name.sh`
+**📜 Scripts:** `action_name.sh`
 ```
 check_disk_space.sh
 backup_system.sh
 ```
 
-## Rules
+**Rules:**
 - ✅ Two digits (01-99)
 - ✅ Lowercase only
 - ✅ Hyphens for folders/md files
 - ✅ Underscores for scripts
 
-## Example
+**Example Structure:**
 ```
-linux-0-1/
+linux101/
 ├── 01-introduction/
 │   ├── 01-what-is-linux.md
 │   ├── 02-distributions.md
@@ -37,8 +37,20 @@ linux-0-1/
 │       └── install_check.sh
 ```
 
-## Wrong ❌ → Right ✅
+**Wrong ❌ → Right ✅**
 - `1-intro/` → `01-introduction/`
 - `CLI-Basics/` → `02-cli-basics/`
 - `WhatIsLinux.md` → `01-what-is-linux.md`
 - `check-disk.sh` → `check_disk_space.sh`
+
+### Quality Standards
+
+All contributions must be:
+- ✓ **Clean** - Well-organized and properly formatted
+- ✓ **Clear** - Easy to understand for learners
+- ✓ **Correct** - Technically accurate and tested
+- ✓ **Complete** - Includes examples where appropriate
+
+> **Note:** Only high-quality, well-formatted submissions will be merged. Every pull request is carefully reviewed.
+
+---
