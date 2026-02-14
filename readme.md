@@ -6,7 +6,7 @@
 
 [![Linux](https://img.shields.io/badge/Linux-Ready-success?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Killercoda Labs](https://img.shields.io/badge/Killercoda-Interactive%20Labs-blue?logo=terminal&logoColor=white)](https://killercoda.com/linux101)
-[![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)]
+[![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)](https://github.com/vishutyagi0210/Linux101/tree/main?tab=readme-ov-file)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
 
 🚀 **[Launch Interactive Labs on Killercoda](https://killercoda.com/linux101)** 🚀
