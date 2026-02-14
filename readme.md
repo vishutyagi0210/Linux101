@@ -5,8 +5,11 @@
 **A comprehensive guide to mastering Linux from fundamentals to advanced system administration**
 
 [![Linux](https://img.shields.io/badge/Linux-Ready-success?logo=linux&logoColor=white)](https://www.linux.org/)
+[![Killercoda Labs](https://img.shields.io/badge/Killercoda-Interactive%20Labs-blue?logo=terminal&logoColor=white)](https://killercoda.com/linux101)
 [![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)](https://github.com)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
+
+🚀 **[Launch Interactive Labs on Killercoda](https://killercoda.com/linux101)** 🚀
 
 </div>
 
@@ -88,7 +91,6 @@ Master the fundamentals of Linux and build a solid foundation.
 
 **What's Inside:**
 - **`basic.md`** - Quick reference guide for essential commands
-- **`detailed.md`** - In-depth explanations with practical examples
 - **`basic-question.md`** - Practice questions for self-assessment
 - **`answers.md`** - Community-contributed solutions (contributors welcome!)
 
@@ -107,7 +109,6 @@ Dive deeper into Linux system administration and advanced concepts.
 
 **What's Inside:**
 - **`basic.md`** - Advanced command quick reference
-- **`detailed.md`** - Comprehensive explanations of complex topics
 - **`basic-question.md`** - Challenging practice scenarios
 - **`answers.md`** - Contributor solutions (pull requests welcome!)
 
@@ -162,10 +163,9 @@ Practice makes perfect! Access interactive labs on **Killercoda** to reinforce y
 
 ### How to Access Labs
 
-1. Visit [killercoda.com](https://killercoda.com)
-2. Search for **"linux101"** or **"nginx"**
-3. Launch interactive terminal environments
-4. Complete hands-on exercises in real Linux environments
+1. Visit **[killercoda.com/linux101](https://killercoda.com/linux101)**
+2. Launch interactive terminal environments
+3. Complete hands-on exercises in real Linux environments
 
 **Available Lab Tracks:**
 - 🐧 **Linux101** - Beginner command-line exercises
@@ -193,6 +193,51 @@ Contributions are what make this repository valuable for the community! We welco
 3. **Create** a feature branch (`git checkout -b feature/YourFeature`)
 4. **Follow** the existing structure and formatting
 5. **Submit** a pull request with clear descriptions
+
+### Naming Conventions
+
+**Must Follow These Rules:**
+
+**📁 Directories:** `##-topic-name/`
+```
+01-introduction/
+02-cli-basics/
+15-shell-scripting/
+```
+
+**📄 Markdown files:** `##-topic-name.md`
+```
+01-what-is-linux.md
+02-basic-commands.md
+```
+
+**📜 Scripts:** `action_name.sh`
+```
+check_disk_space.sh
+backup_system.sh
+```
+
+**Rules:**
+- ✅ Two digits (01-99)
+- ✅ Lowercase only
+- ✅ Hyphens for folders/md files
+- ✅ Underscores for scripts
+
+**Example Structure:**
+```
+linux101/
+├── 01-introduction/
+│   ├── 01-what-is-linux.md
+│   ├── 02-distributions.md
+│   └── scripts/
+│       └── install_check.sh
+```
+
+**Wrong ❌ → Right ✅**
+- `1-intro/` → `01-introduction/`
+- `CLI-Basics/` → `02-cli-basics/`
+- `WhatIsLinux.md` → `01-what-is-linux.md`
+- `check-disk.sh` → `check_disk_space.sh`
 
 ### Quality Standards
 
