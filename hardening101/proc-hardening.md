@@ -229,7 +229,3 @@ Mitigation:
 Hardening `/proc` removes an entire class of low-effort reconnaissance with a single supported configuration change.
 
 ---
-
-## License
-
-MIT – use it, share it, improve it.
